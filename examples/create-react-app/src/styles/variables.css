@@ -1,0 +1,17 @@
+:root {
+  /* fonts */
+  --primary-font: 'Roboto' sans-serif;
+  --secondary-font: 'Poppins', sans-serif;
+
+  /* colors */
+  --primary-color: #3b71ca;
+  --secondary-color: #9fa6b2;
+  --success-color: #14a44d;
+  --danger-color: #dc4c64;
+  --warning-color: #e4a11b;
+  --infor-color: #54b4d3;
+
+  /* text color */
+  --primary-text-color: var(--primary-color);
+  --secondary-text-color: var(--secondary-color);
+}

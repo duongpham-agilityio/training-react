@@ -1,0 +1,12 @@
+.pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 50px 0;
+}
+
+.btnPagination {
+  text-transform: capitalize;
+  font-weight: 500;
+}

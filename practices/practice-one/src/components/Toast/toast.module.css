@@ -1,0 +1,36 @@
+@import url(./animation.module.css);
+
+.toast {
+  max-width: 250px;
+  position: fixed;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: white;
+  font-size: 14px;
+  border-radius: 3px;
+  background-color: red;
+  padding: 10px;
+  animation: toast ease-in-out forwards;
+  z-index: 999999;
+}
+
+.toast.hidden {
+  display: none;
+}
+
+.toast.visible {
+  display: block;
+}
+
+.toast.error {
+  background-color: var(--danger-color);
+}
+
+.toast.success {
+  background-color: green;
+}
+
+.toast.warning {
+  background-color: var(--warning-color);
+}

@@ -1,0 +1,72 @@
+.filterOverlay {
+  position: fixed;
+  z-index: 99999;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--primary-font);
+  background-color: rgba(132, 131, 131, 0.2);
+}
+
+.filterOverlay .filterBox {
+  width: 450px;
+  border-radius: 5px;
+  background-color: white;
+  padding: 20px;
+  box-shadow: 0 5px 15px -5px;
+}
+
+.filterOverlay .filterItem {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 15px 10px;
+}
+
+.filterOverlay .filterItem:nth-child(2) {
+  padding: 20px 0;
+  box-shadow: 0 1px 0 var(--secondary-color), 0 -1px 0 var(--secondary-color);
+}
+
+.filterOverlay .filterDropdown {
+  flex: 1;
+}
+
+.filterOverlay .filterText {
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: capitalize;
+  padding: 0 0 10px;
+}
+
+.filterOverlay .filterSelection,
+.filterOverlay .input {
+  /* TODO: delete */
+  margin: unset;
+}
+
+.filterOverlay .filterSelection {
+  /* --------- */
+  width: 100%;
+}
+
+.filterOverlay .filterRange {
+  flex: 1;
+}
+
+.filterOverlay .filterData {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 25px 0;
+}
+
+.filterOverlay .input {
+  width: 100%;
+  border: none;
+}
+
+.filterOverlay .inputRange {
+  border-radius: 25px;
+}

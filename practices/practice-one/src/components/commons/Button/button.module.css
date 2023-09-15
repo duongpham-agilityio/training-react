@@ -1,0 +1,52 @@
+.btn {
+  display: flex;
+  align-items: center;
+  border: none;
+  border-radius: 5px;
+  list-style: none;
+  cursor: pointer;
+  font-family: var(--primary-font);
+}
+
+.btn:hover {
+  opacity: 0.85;
+}
+
+.btn.btnDefault {
+  background-color: silver;
+}
+
+.btn.btnPrimary {
+  color: white;
+  background-color: black;
+}
+
+.btn.btnSecondary {
+  color: var(--primary-color);
+  background-color: white;
+}
+
+.btn.btnSm {
+  font-size: 11px;
+  padding: 8px;
+}
+
+.btn.btnMd {
+  font-size: 13px;
+  padding: 10px;
+}
+
+.btn.btnLg {
+  font-size: 15px;
+  padding: 13px;
+}
+
+.btn.btnXl {
+  font-size: 18px;
+  padding: 20px;
+}
+
+.btn .btnIcon {
+  font-size: inherit;
+  padding: 0 5px;
+}

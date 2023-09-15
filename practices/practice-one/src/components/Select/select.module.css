@@ -1,0 +1,45 @@
+.selection {
+  position: relative;
+  width: 20%;
+  background-color: white;
+  border-radius: 5px;
+  border: 1px solid var(--secondary-color);
+  margin: 50px 10px;
+}
+
+.selection::before {
+  position: absolute;
+  width: 1px;
+  height: 70%;
+  right: 30px;
+  top: 50%;
+  content: '';
+  background-color: var(--secondary-color);
+  transform: translateY(-50%);
+}
+
+.selection::after {
+  position: absolute;
+  content: '';
+  top: 50%;
+  right: 8px;
+  border: 1px solid;
+  border-width: 7px;
+  border-color: var(--secondary-color) transparent transparent transparent;
+  transform: translateY(-20%);
+}
+
+.selection .options {
+  width: 100%;
+  border-radius: inherit;
+  border: none;
+  background-color: transparent;
+  font-weight: 600;
+  padding: 5px 10px;
+  outline: none;
+  -webkit-appearance: none;
+}
+
+.selection .selectionOption {
+  font-weight: inherit;
+}

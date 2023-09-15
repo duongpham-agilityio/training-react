@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MainLayout Match to snapshot 1`] = `
+<div>
+  <header>
+    <a
+      href="/"
+    >
+      <img
+        alt="logo"
+        height="60px"
+        src="assets/icons/Logo.jpg"
+        width="100px"
+      />
+    </a>
+    <h2
+      class="undefined undefined "
+    >
+      Hello! Welcome to the Book Marker
+    </h2>
+  </header>
+</div>
+`;
