@@ -1,0 +1,68 @@
+.mainHeader {
+  font-family: var(--primary-font);
+  box-shadow: 0 0.05mm 0;
+}
+
+.mainHeader .mainNavbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.mainHeader .headerItem {
+  display: flex;
+  align-items: center;
+}
+
+.mainHeader .headerItem:nth-child(1) {
+  gap: 20px;
+}
+
+.mainHeader .headerLogo {
+  width: 100px;
+}
+
+.mainHeader .navLink {
+  font-weight: 600;
+  color: var(--primary-text-color);
+}
+
+.mainHeader .headerFilter {
+  display: flex;
+  overflow: hidden;
+  border: 1px solid var(--primary-color);
+  border-radius: 4px;
+}
+
+.mainHeader .headerFilter .btn,
+.mainHeader .btn.headerCartIcon {
+  border: none;
+  border-radius: unset;
+}
+
+.mainHeader .headerFilter .input {
+  border-radius: unset;
+  border: none;
+  margin: unset;
+}
+
+.mainHeader .headerCartIcon {
+  position: relative;
+  font-size: 17px;
+  background-color: transparent;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.mainHeader .headerCartIcon.show::after {
+  position: absolute;
+  top: -8px;
+  right: 0;
+  content: attr(data-size);
+  border-radius: 50%;
+  color: white;
+  font-size: 12px;
+  font-weight: 600;
+  background-color: red;
+  padding: 1px 5px;
+}

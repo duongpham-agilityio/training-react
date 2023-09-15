@@ -1,0 +1,180 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "Lorem Ipsum1",
+      "category": "Salt",
+      "price": 1000,
+      "imageURL": "src/assets/images/product-1.jpg",
+      "quantity": 11
+    },
+    {
+      "id": 2,
+      "title": "Lorem Ipsum2",
+      "category": "Salt",
+      "price": 1000,
+      "imageURL": "src/assets/images/product-2.jpg",
+      "quantity": 12
+    },
+    {
+      "id": 3,
+      "title": "Lorem Ipsum3",
+      "category": "Sexbomb",
+      "price": 1000,
+      "imageURL": "src/assets/images/product-3.jpg",
+      "quantity": 21
+    },
+    {
+      "id": 4,
+      "title": "Lorem Ipsum4",
+      "category": "Betsin Maalat",
+      "price": 1000,
+      "imageURL": "src/assets/images/product-4.jpg",
+      "quantity": 71
+    },
+    {
+      "id": 5,
+      "title": "Lorem Ipsum5",
+      "category": "Sexbomb",
+      "price": 1000,
+      "imageURL": "src/assets/images/product-5.jpg",
+      "quantity": 22
+    },
+    {
+      "id": 6,
+      "title": "Lorem Ipsum6",
+      "category": "Betsin Maalat",
+      "price": 1000,
+      "imageURL": "src/assets/images/product-6.jpg",
+      "quantity": 39
+    },
+    {
+      "id": 7,
+      "title": "Lorem Ipsum7",
+      "category": "Yezyow",
+      "price": 1000,
+      "imageURL": "src/assets/images/product-7.jpg",
+      "quantity": 19
+    },
+    {
+      "id": 8,
+      "title": "Lorem Ipsum8",
+      "category": "Sexbomb",
+      "price": 1000,
+      "imageURL": "src/assets/images/product-8.jpg",
+      "quantity": 19
+    },
+    {
+      "id": 9,
+      "title": "Lorem Ipsum9",
+      "category": "Yezyow",
+      "price": 1000,
+      "imageURL": "src/assets/images/product-9.jpg",
+      "quantity": 8
+    },
+    {
+      "id": 10,
+      "title": "Lorem Ipsum10",
+      "category": "Sexbomb",
+      "price": 1000,
+      "imageURL": "src/assets/images/product-10.jpg",
+      "quantity": 19
+    },
+    {
+      "id": 11,
+      "title": "Lorem Ipsum11",
+      "category": "Salt",
+      "price": 1000,
+      "imageURL": "src/assets/images/product-11.jpg",
+      "quantity": 14
+    },
+    {
+      "id": 12,
+      "title": "Lorem Ipsum1",
+      "category": "Sexbomb",
+      "price": 1000,
+      "imageURL": "src/assets/images/product-1.jpg",
+      "quantity": 11
+    },
+    {
+      "id": 13,
+      "title": "Lorem Ipsum2",
+      "category": "Salt",
+      "price": 1000,
+      "imageURL": "src/assets/images/product-2.jpg",
+      "quantity": 12
+    },
+    {
+      "id": 14,
+      "title": "Lorem Ipsum3",
+      "category": "Sexbomb",
+      "price": 1000,
+      "imageURL": "src/assets/images/product-3.jpg",
+      "quantity": 2
+    },
+    {
+      "id": 15,
+      "title": "Lorem Ipsum4",
+      "category": "Betsin Maalat",
+      "price": 1000,
+      "imageURL": "src/assets/images/product-4.jpg",
+      "quantity": 1
+    },
+    {
+      "id": 16,
+      "title": "Lorem Ipsum5",
+      "category": "Sexbomb",
+      "price": 1000,
+      "imageURL": "src/assets/images/product-5.jpg",
+      "quantity": 2
+    },
+    {
+      "id": 17,
+      "title": "Lorem Ipsum6",
+      "category": "Betsin Maalat",
+      "price": 1000,
+      "imageURL": "src/assets/images/product-6.jpg",
+      "quantity": 3
+    },
+    {
+      "id": 18,
+      "title": "Lorem Ipsum7",
+      "category": "Yezyow",
+      "price": 1000,
+      "imageURL": "src/assets/images/product-7.jpg",
+      "quantity": 9
+    },
+    {
+      "id": 19,
+      "title": "Lorem Ipsum8",
+      "category": "Sexbomb",
+      "price": 1000,
+      "imageURL": "src/assets/images/product-8.jpg",
+      "quantity": 9
+    },
+    {
+      "id": 20,
+      "title": "Lorem Ipsum9",
+      "category": "Yezyow",
+      "price": 1000,
+      "imageURL": "src/assets/images/product-9.jpg",
+      "quantity": 8
+    },
+    {
+      "id": 21,
+      "title": "Lorem Ipsum10",
+      "category": "Salt",
+      "price": 1000,
+      "imageURL": "src/assets/images/product-10.jpg",
+      "quantity": 6
+    },
+    {
+      "id": 22,
+      "title": "Lorem Ipsum11",
+      "category": "Salt",
+      "price": 1000,
+      "imageURL": "src/assets/images/product-11.jpg",
+      "quantity": 10
+    }
+  ]
+}

@@ -1,0 +1,208 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Form component Match snapshot 1`] = `
+<div>
+  <section>
+    <form
+      action="#"
+      class="undefined "
+      data-testid="book-form"
+      method="POST"
+    >
+      <h2
+        class="undefined undefined "
+      >
+        Create a new book marker
+      </h2>
+      <section>
+        <div>
+          <div>
+            <label
+              for="bookName"
+            >
+              Book name
+            </label>
+            <div
+              class="undefined "
+            >
+              <button
+                aria-label="Search button"
+                class="undefined undefined
+  undefined undefined
+  undefined "
+                style="background-color: transparent; padding: 0px;"
+                type="button"
+              />
+              <input
+                id="bookName"
+                name="name"
+                placeholder="Book name"
+                type="text"
+                value="LIFE23333"
+              />
+              <button
+                aria-label="The right button"
+                class="undefined undefined
+  undefined undefined
+  undefined "
+                style="background-color: transparent; padding: 0px;"
+                type="button"
+              />
+            </div>
+          </div>
+          <div>
+            <label
+              for="author"
+            >
+              Author
+            </label>
+            <div
+              class="undefined "
+            >
+              <button
+                aria-label="Search button"
+                class="undefined undefined
+  undefined undefined
+  undefined "
+                style="background-color: transparent; padding: 0px;"
+                type="button"
+              />
+              <input
+                name="author"
+                placeholder="Author"
+                type="text"
+                value="dddd"
+              />
+              <button
+                aria-label="The right button"
+                class="undefined undefined
+  undefined undefined
+  undefined "
+                style="background-color: transparent; padding: 0px;"
+                type="button"
+              />
+            </div>
+          </div>
+        </div>
+        <div>
+          <div>
+            <label
+              for="publishedDate"
+            >
+              Published date
+            </label>
+            <div
+              class="undefined "
+            >
+              <button
+                aria-label="Search button"
+                class="undefined undefined
+  undefined undefined
+  undefined "
+                style="background-color: transparent; padding: 0px;"
+                type="button"
+              />
+              <input
+                name="publishDate"
+                placeholder="Enter text..."
+                type="date"
+                value="1955-08-15"
+              />
+              <button
+                aria-label="The right button"
+                class="undefined undefined
+  undefined undefined
+  undefined "
+                style="background-color: transparent; padding: 0px;"
+                type="button"
+              />
+            </div>
+          </div>
+          <div
+            class="undefined undefined"
+          >
+            <div>
+              <label
+                for="imageURL"
+              >
+                Upload
+              </label>
+              <div
+                class="undefined "
+              >
+                <button
+                  aria-label="Search button"
+                  class="undefined undefined
+  undefined undefined
+  undefined "
+                  style="background-color: transparent; padding: 0px;"
+                  type="button"
+                />
+                <input
+                  accept=".png,.jpeg"
+                  hidden=""
+                  id="imageURL"
+                  name="imageURL"
+                  placeholder="Enter text..."
+                  type="file"
+                />
+                <button
+                  aria-label="The right button"
+                  class="undefined undefined
+  undefined undefined
+  undefined "
+                  style="background-color: transparent; padding: 0px;"
+                  type="button"
+                />
+              </div>
+              <p>
+                duong
+              </p>
+            </div>
+            <div>
+              <img
+                alt="image book"
+                src="http://books.google.com/books/content?id=51YEAAAAMBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+              />
+            </div>
+          </div>
+        </div>
+        <div>
+          <div>
+            <label
+              for="bookName"
+            >
+              Description
+            </label>
+            <textarea
+              class="undefined "
+              name="description"
+              placeholder="Book name"
+            >
+              LIFE Magazine is the treasured photographic magazine that chronicled the 20th Century. It now lives on at LIFE.com, the largest, most amazing collection of professional photography on the internet. Users can browse, search and view photos of today’s people and events. They have free access to share, print and post images for personal use.
+            </textarea>
+          </div>
+        </div>
+        <div>
+          <button
+            class="undefined undefined
+  undefined undefined
+  undefined "
+            type="button"
+          >
+            Cancel
+          </button>
+          <button
+            class="undefined undefined
+  undefined undefined
+  undefined "
+            type="submit"
+          >
+            Save
+          </button>
+        </div>
+      </section>
+    </form>
+  </section>
+</div>
+`;

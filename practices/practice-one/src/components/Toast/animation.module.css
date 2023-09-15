@@ -1,0 +1,13 @@
+@keyframes toast {
+  0%,
+  100% {
+    opacity: 0.3;
+    top: -100%;
+  }
+
+  20%,
+  75% {
+    opacity: 1;
+    top: 20px;
+  }
+}

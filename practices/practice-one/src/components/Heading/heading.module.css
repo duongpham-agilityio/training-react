@@ -1,0 +1,20 @@
+.heading {
+  font-family: var(--primary-font);
+  padding: 10px 0;
+}
+
+.heading.headingSm {
+  font-size: 11px;
+}
+
+.heading.headingMd {
+  font-size: 15px;
+}
+
+.heading.headingLg {
+  font-size: 20px;
+}
+
+.heading.headingXl {
+  font-size: 24px;
+}

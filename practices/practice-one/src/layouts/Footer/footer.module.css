@@ -1,0 +1,25 @@
+.mainFooter {
+  font-family: var(--primary-font);
+  box-shadow: 0 -0.05mm 0;
+}
+
+.mainFooter .grid {
+  height: 100%;
+  align-items: center;
+}
+
+.mainFooter .footerItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 13px;
+}
+
+.mainFooter .text {
+  padding: 5px 0;
+}
+
+.mainFooter .footerLogo {
+  width: 30%;
+}

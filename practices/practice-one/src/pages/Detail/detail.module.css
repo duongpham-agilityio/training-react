@@ -1,0 +1,80 @@
+.detailWrapper {
+  width: 70%;
+  height: 500px;
+  display: flex;
+  gap: 20px;
+  overflow: hidden;
+  border: 1px solid var(--primary-color);
+  border-radius: 5px;
+  font-family: var(--primary-font);
+  margin: 50px auto;
+  box-shadow: 0 7px 10px -5px;
+}
+
+.detailWrapper .imageWrapper {
+  height: inherit;
+  display: flex;
+  align-items: center;
+  background-color: var(--primary-color);
+}
+
+.detailWrapper .imageProduct {
+}
+
+.detailWrapper .detail {
+  padding: 20px;
+}
+
+.detailWrapper .title {
+  padding: 10px 0 20px;
+}
+
+.detailWrapper .category {
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--secondary-color);
+  padding: 5px 0;
+}
+
+.detailWrapper .productName {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.detailWrapper .description {
+  font-size: 12px;
+  padding: 10px 0;
+}
+
+.detailWrapper .selectQuantity {
+  display: flex;
+  gap: 5px;
+  padding: 10px 0;
+}
+
+.detailWrapper .stockSize {
+  font-size: 13px;
+  font-weight: 500;
+  padding: 10px 0;
+}
+
+.detailWrapper .input {
+  width: 80px;
+  padding: unset;
+  margin: unset;
+}
+
+.detailWrapper .fieldValue {
+  width: 100%;
+}
+
+.detailWrapper .price {
+  font-size: 25px;
+  font-weight: 600;
+  padding: 20px 0;
+}
+
+.detailWrapper .btn {
+  font-weight: 600;
+  text-transform: capitalize;
+}

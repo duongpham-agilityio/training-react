@@ -1,0 +1,72 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Filter Bar Match to snapshot 1`] = `
+<div>
+  <div>
+    <div
+      class="undefined function search() { [native code] }"
+    >
+      <button
+        aria-label="Search button"
+        class="undefined undefined
+  undefined undefined
+  undefined "
+        style="background-color: transparent; padding: 0px;"
+        type="button"
+      >
+        <img
+          alt="This is the left icon for the button"
+          height="25px"
+          src="assets/icons/search.svg"
+          width="22px"
+        />
+      </button>
+      <input
+        placeholder="Search something..."
+        type="text"
+        value=""
+      />
+      <button
+        aria-label="The right button"
+        class="undefined undefined
+  undefined undefined
+  undefined "
+        style="background-color: transparent; padding: 0px;"
+        type="button"
+      />
+    </div>
+    <ul>
+      <li>
+        <a
+          class="undefined "
+          href="/#one"
+        >
+          One
+        </a>
+      </li>
+      <li>
+        <a
+          class="undefined "
+          href="/#two"
+        >
+          Two
+        </a>
+      </li>
+    </ul>
+    <button
+      class="undefined undefined
+  undefined undefined
+  undefined "
+      type="button"
+    >
+      <img
+        alt="This is the left icon for the button"
+        height="25px"
+        src="assets/icons/add.svg"
+        width="22px"
+      />
+      Create
+    </button>
+  </div>
+</div>
+`;

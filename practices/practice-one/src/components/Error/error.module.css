@@ -1,0 +1,18 @@
+.error {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--primary-font);
+  color: var(--danger-color);
+  padding: 50px 0;
+}
+
+.error .icon {
+  font-size: 25px;
+  padding: 0 5px;
+}
+
+.error .message {
+  font-size: 13px;
+}

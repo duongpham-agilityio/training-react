@@ -1,0 +1,6 @@
+.input-field {
+  outline: none;
+  border: 0.05mm solid black;
+  border-radius: 5px;
+  padding: 5px;
+}

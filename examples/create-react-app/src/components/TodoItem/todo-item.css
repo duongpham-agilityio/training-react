@@ -1,0 +1,13 @@
+.todo-item {
+  padding: 10px 0;
+  list-style: none;
+}
+
+.todo-item .todo-title {
+  padding: 5px 0;
+}
+
+.todo-item .todo-icon {
+  padding: 0 20px;
+  cursor: pointer;
+}

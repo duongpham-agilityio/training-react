@@ -1,0 +1,16 @@
+@keyframes loading {
+  to {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+}
+
+@keyframes scaleLoading {
+  from {
+    transform: translate(-50%, -50%) scale(0.5);
+    opacity: 0.4;
+  }
+  to {
+    transform: translate(-50%, -50%) scale(1.2);
+    opacity: 1;
+  }
+}
