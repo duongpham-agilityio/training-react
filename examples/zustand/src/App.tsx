@@ -1,5 +1,7 @@
 // Components
 import { GetStarted } from "./examples";
+import { SlicePattern } from "./examples/SlicePattern";
+import UpdateState from "./examples/UpdateState";
 
 const App = () => {
   return (
@@ -8,9 +10,12 @@ const App = () => {
         display: "flex",
         alignItems: "center",
         justifyContent: "center",
+        flexDirection: "column",
       }}
     >
       <GetStarted />
+      <UpdateState />
+      <SlicePattern />
     </main>
   );
 };
