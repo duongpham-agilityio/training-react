@@ -6,6 +6,7 @@ const TypeScript = () => {
   const { data: users = [], isLoading } = useQuery({
     queryKey: ["users"],
     queryFn: getUsers,
+    staleTime: 1000 * 5,
   });
 
   if (isLoading) return <p>Loading...</p>;
