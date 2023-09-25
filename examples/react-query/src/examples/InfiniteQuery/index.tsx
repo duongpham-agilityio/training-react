@@ -8,19 +8,9 @@ import { IPost } from "../../interfaces";
 import { ENDPOINT, URL } from "../../constants/fetch";
 
 const getPosts = ({ pageParam = 1 }: QueryFunctionContext): Promise<IPost[]> =>
-  new Promise((resolve, reject) => {
-    fetch(`${URL.BaseURL}${ENDPOINT.Posts}?_page=${pageParam}`)
-      .then((res) => {
-        setTimeout(() => {
-          resolve(res.json());
-        }, 3000);
-      })
-      .catch(() => {
-        setTimeout(() => {
-          reject(new Error("Can not fetching data!!!!"));
-        }, 3000);
-      });
-  });
+  fetch(`${URL.BaseURL}${ENDPOINT.Posts}?_page=${pageParam}`)
+    .then((res) => res.json())
+    .catch(() => new Error("Can not fetching data!!!!"));
 
 const InfiniteQuery = () => {
   const {
