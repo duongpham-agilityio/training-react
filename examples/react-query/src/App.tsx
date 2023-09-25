@@ -7,6 +7,7 @@ import Queries from "./examples/Queries";
 import QueryFunction from "./examples/QueryFunction";
 import Paginated from "./examples/Paginated";
 import StaleTime from "./examples/StaleTime";
+import InfiniteQuery from "./examples/InfiniteQuery";
 
 const queryClient = new QueryClient();
 
@@ -17,8 +18,8 @@ const App = () => (
     <Queries />
     <QueryFunction />
     <Paginated />
-
     <StaleTime />
+    <InfiniteQuery />
   </QueryClientProvider>
 );
 
