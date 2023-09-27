@@ -1,10 +1,11 @@
 import {
   MockedResponse,
   RequestHandler,
-  ResponseFunction,
+  ResponseComposition,
   RestContext,
   rest,
 } from "msw";
+import { ENDPOINT } from "../constants";
 
 const customContext = (res: MockedResponse) => {
   res.status = 200;
@@ -17,17 +18,20 @@ const customContext = (res: MockedResponse) => {
 
 export const handlers: RequestHandler[] = [
   // Not use ctx
-  rest.get("/user", (_, res: ResponseFunction) => {
+  rest.get("/user", (_, res: ResponseComposition) => {
     return res(customContext);
   }),
 
   // Use ctx
-  rest.get("/post", (_, res: ResponseFunction, ctx: RestContext) => {
-    return res(
-      ctx.status(200),
-      ctx.json({
-        name: "This is post",
-      })
-    );
-  }),
+  rest.get(
+    ENDPOINT.SignIn + "",
+    (_, res: ResponseComposition, ctx: RestContext) => {
+      return res(
+        ctx.status(200),
+        ctx.json({
+          name: "This is post",
+        })
+      );
+    }
+  ),
 ];

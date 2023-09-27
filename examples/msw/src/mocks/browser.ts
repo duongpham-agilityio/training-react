@@ -1,6 +1,6 @@
 import { SetupWorker, setupWorker } from "msw";
 
-// Handlers
-import { handlers } from "./handlers";
+// Routes
+import { routes } from "./routes";
 
-export const worker: SetupWorker = setupWorker(...handlers);
+export const worker: SetupWorker = setupWorker(...routes);
