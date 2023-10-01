@@ -18,7 +18,9 @@ jobs:
          
      - name: Install dependencies
        run: yarn
+       working-directory: practices/practice-three
        
      - name: Install Vercel CLI
        run: yarn add --global vercel@latest
+       working-directory: practices/practice-three
 
